@@ -121,7 +121,12 @@ export default function LotteryEntrance()
           <p>Number Of Players: {numPlayers} </p>
           <h4>Recent Winner: {recentWinner} </h4>
         </div>) : 
-        (<div>No Raffle Contract detected</div>)
+        (
+          <div>
+            <p>No Raffle Contract detected</p>
+            <p>Whats Up!!</p>
+          </div>
+        )
       }
     </div>
   )
